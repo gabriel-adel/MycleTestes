@@ -1,0 +1,37 @@
+.container{ 
+    margin:auto; 
+    width:400px;
+     
+}
+
+.formulario { 
+    margin:10px;
+
+} 
+
+input[type=text], input[type=date],input[type=password],input[type=email]{
+    width: 100%;
+}
+input[type=radio]{
+    display:inline-block;
+    
+   
+}
+/* label[for=feminino],label[for=masculino]{
+        
+    float: left;
+} */
+
+.dadosPessoas, .endereco{ 
+    border:2px solid black; padding:20px;
+    
+}
+.registrar{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+}
+/* footer{
+    position: absolute;
+    bottom: 0;
+} */

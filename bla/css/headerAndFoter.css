@@ -1,0 +1,175 @@
+/* começo header */
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;    
+}
+header{
+    background-color: #dddddd;
+    position: relative;
+    height: 120px;
+       
+}
+.menu-opcoes ul li{
+    display: inline-block;
+
+    border: 0 auto;
+    padding: 5px;
+}
+.menu-opcoes li{
+    font-size:15px;
+}
+.menu-opcoes a{
+    
+    text-decoration: none;
+    color: #333;
+}
+.conta a{
+    text-decoration: none;
+    color: #333;
+}
+.busca button{
+    background-image:url(img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+    text-indent: -99999px;
+    width: 20px;
+    height: 20px;
+}
+.sacola a{
+    text-decoration: none;
+    color: #333;
+}
+
+.sacola{
+    background-image: url(img/sacola2.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: right;
+    float: right;
+    padding-top: 23px; 
+    padding-right: 35px;
+    margin-right: 50px;
+    margin-top: -90px;
+    width: 140px;   
+}
+
+
+.busca{
+    margin:0 auto;
+    width: 50%;
+    margin-right: 320px;
+    margin-left: 310px;
+    padding: 50px;
+    
+}
+
+.busca input[type=search]{
+    width: 90%;
+    height: 30px;
+    border-radius: 6px;
+}
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.logo{
+    /* deixa a logo flutuando para colocar a busca ao lado */
+    float: left;
+    clear: both;
+    width: 0px;
+}
+.menu-roupas li ul{
+    display: none;
+}
+.menu-roupas li:hover ul{
+    display: block;
+} 
+
+.menu-roupas ul li{
+    display: none;
+}
+/* .menu-roupas ul:hover li {
+    display: block;
+}  */
+.menu-roupas li{
+    margin-top: 5px;
+} 
+
+
+
+.menu-roupas{
+    margin-left: 100px;
+    width: 150px;
+    position: absolute;
+    top:95px;
+    left:155px;
+    border-radius: 6px;
+    background-color: #dddddd;
+}
+
+.menu-roupas p{
+    background-image: url(img/menu3.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    
+    width: 25px;
+    height: 25px;
+    
+}
+.menu-roupas ul ul li{
+    
+    line-height: 20px;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+.menu-roupas a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* fim header */
+/* começo footer */
+footer{
+    background-color: #333;
+    position: relative;
+    
+    clear: both;
+    padding: 20px 0;
+    height: 30px;
+    width: 100%;
+    
+}
+.social{
+    position: absolute;
+    right: 15px;
+    top:25%;
+    
+}
+.social li{
+    float: left;
+    margin-left:25px; 
+}
+.social a{
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+.social a[href*="facebook.com"]{
+    background-image: url(img/facebook.png);
+}
+.social a[href*="twitter.com"]{
+    background-image: url(img/twitter.png);
+}
+.social a[href*="google.plus.com"]{
+    background-image: url(img/googleplus.png);
+}
+/* final footer */

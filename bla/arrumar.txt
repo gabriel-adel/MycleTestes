@@ -1,0 +1,54 @@
+home: 
+bot�o de banner 
+centralizar 
+fotos
+cor 
+banner link
+
+lista de produtos:
+botao de pag +1
+css
+filtro
+
+produto:
+tamanho
+cor 
+foto mostruario 
+css
+comentarios
+
+checkout: 
+espa�o entre frases 
+
+
+header: 
+logo
+carrinho que mostra as quantidade de compra
+menu 
+
+footer:
+logo
+cp
+rede sociais<a>
+
+formulario:
+css
+banco de dados
+
+login:
+css
+
+banco:
+liga�oes entre.
+
+
+
+
+......
+ $query ="select conta.idLogin,conta.usuario, p.nome, p.sexo, dp.cpf,dp.dataNascimento,c.email, c.telefone, c.celular, e.estado, e.cidade, e. bairro, e.rua, e.numero, e.cep, e.complemento
+    from conta as conta join pessoa as p join dados_pessoais as dp join contato as c join endereco as e 
+    where p.id_dados_pessoais = dp.idDadosPessoais and p.idPessoa = e.id_pessoa and p.idPessoa = c.id_pessoa and p.id_login = conta.idLogin and  conta.usuario = '{$_SESSION['usuario']}'";
+
+
+SELECT p.nome, p.dataNascimento, p.sexo,  dp.cpf, dp.telefone, dp.celular, dp.email, e.estado, e.cidade, e.bairro, e.rua, e.numero, e.cep  
+    from pessoa as p join dados_pessoais as dp join endereco as e on p.idDados = dp.idDados and p.idEndereco = e.idEndereco where email ='{$_SESSION['email']}';

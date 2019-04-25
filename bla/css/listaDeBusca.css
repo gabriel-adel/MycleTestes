@@ -1,0 +1,23 @@
+
+
+.produtos a{
+    text-decoration: none;
+    color: #333;
+}
+.produtos li{
+    display: inline-block;
+    border: 1px solid black;
+    margin:20px;
+    width: 140px;
+    padding: 10px;
+    float: left;
+    
+}
+.produtos ol{
+    margin-top: 5px;
+}
+.produtos li:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #333;
+}
+

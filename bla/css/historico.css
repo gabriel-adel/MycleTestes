@@ -1,0 +1,13 @@
+.listaProdutos{
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.listaProdutos li{
+    line-height: 25px;
+}
+.listaProdutos a{
+    text-decoration: none;
+    color: #333;
+}

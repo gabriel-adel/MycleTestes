@@ -1,0 +1,65 @@
+.produto{
+    margin-top:10px;
+    height: 200px;
+    border:2px solid black;
+    margin-bottom: 5px;
+}
+.produto img{
+    height: 150px;
+    padding: 10px;
+    float: left;
+}
+.sem_compra{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20%;
+}
+.card-body dl{ 
+    float: left;
+    width: 600px;
+    margin-left: 50px;
+    line-height: 25px;
+    padding: 5px;
+    
+     
+}
+.card-body dt:not(:first-child){
+    float: left;
+    
+}
+
+.card-body dd{
+    margin-left:5px; 
+    
+}
+.card-header{
+    
+    margin-bottom: 10px;
+}
+
+
+.form-group{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.venda{
+    margin-bottom: 100px;
+}
+.quantidadeProduto{
+    
+    float: right;
+    
+    margin-right: 50px;
+}
+.compra{
+    margin-right:40px;
+    margin-top: 60px;
+    float: right;
+}
+ /* footer{
+    position: absolute;
+    bottom: 0;
+}  */
+html{
+    height: 100%;
+}
