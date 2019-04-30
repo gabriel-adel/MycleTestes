@@ -1,0 +1,90 @@
+
+.container{
+    padding-top: 10px;
+    margin:0 auto;
+    width: 1200px;
+    
+}
+
+.banner-destaque img{
+    height: 700px;
+    width: 1200px;
+    float: right;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.painel li {
+    display: inline-block;
+    width: 140px;
+    
+} 
+.painel ol{
+    padding-top:20px; 
+    margin-left: 101px;
+       
+}
+.painel a{
+    text-decoration: none;
+    color: #333;
+}
+
+.destaque, .novidades{
+    display: inline-block;
+    padding: 5px;
+    /* talvez tire border: 1px solid black;
+        
+    */
+    
+    float: right; 
+    
+    
+}
+
+.destaque h2, .novidades h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.painel li:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #333;
+}
+
+.painel li, .destaque li, .novidades li{
+    border: 1px solid #333;
+    margin:0 6px 0 6px;
+    padding: 10px;
+    background-color: #a29b9b;
+    border-radius: 5px;
+    
+    
+}
+.painel figcaption{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.painel li:nth-child(n+7){
+   display: none;
+}
+.painel-aberto li:nth-child(n+7){
+    display: inline-block;
+}
+
+.destaque, .novidades{
+    margin-bottom:20px; 
+    position: relative;
+}
+
+.pause {
+    background-color: black;
+    height: 10px;
+    width: 20px;
+    
+}
+.pause a{
+    
+    text-indent:-9999px;
+    
+}
