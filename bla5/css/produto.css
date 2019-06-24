@@ -1,0 +1,91 @@
+
+.foto-mercadoria img{
+    float: left;
+    margin: 20px 20px 20px 50px;
+    clear: both;
+    width: 220px;
+    height: 270px;
+}
+.painel li {
+    display: inline-block;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.painel h2{
+    font-size: 30px;
+}
+.painel ol{
+    padding-top: 20px;
+    margin-left: 101px;
+} 
+.painel a{
+    text-decoration: none;
+    color: #333;
+} 
+.veja-mais li, .novidades li{
+    display: inline-block;
+    margin: 0 6px 0 6px;
+    border: 1px solid black;
+    padding:10px;
+    background-color: #a29b9b;
+    
+}
+.veja-mais img, .novidades img{
+    width: 130px;
+    height: 150px;
+}
+.produto{
+    margin-top: 20px;
+    width: 1000px;
+    float: left;
+}
+
+.painel li:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px #333;
+}
+.painel figcaption{
+    font-size: 20px;
+    padding: 5px;
+}
+.veja-mais, .novidades{
+    
+    float: left;
+    clear: both;
+    padding: 5px;
+    
+    margin-left:50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.produto p{
+    margin-bottom: 10px;
+    
+}
+.mercadoria{
+    line-height: 31px;
+}
+.produto h1{
+    width: 600px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.desc{
+    margin: 80px 0 10px 0;
+    
+    
+}
+.pagamento{
+    margin: 10px 0 10px 0;
+    
+    height: 230px;
+}
+
+
+.tamanho2{
+    float: left;
+    padding-top: 100px; 
+}
+
+
