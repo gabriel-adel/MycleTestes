@@ -31,10 +31,10 @@ function getConection(){
  * @return \PDO
 */
 
-define('HOST', 'mcleyserver2.c4ejixel4uwx.us-east-2.rds.amazonaws.com');
-define('USUARIO','adel');
-define('SENHA','gabriel87');
-define('DB','mycleOficial');
+define('HOST', '');
+define('USUARIO','');
+define('SENHA','');
+define('DB','');
 
 $conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Nao connectou');
  
