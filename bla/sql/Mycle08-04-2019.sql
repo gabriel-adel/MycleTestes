@@ -15,14 +15,14 @@ create table dadosPessoais(id int not null auto_increment primary key,cpf varcha
 
 create table pedidos(id int not null primary key auto_increment, id_produto int not null, valorTotal decimal(6,2) not null, quantidade int not null,  id_pessoa int not null,dataCompra date)Engine = Innodb,charset = utf8;
 
-alter table contato add foreign key(id_pessoa) references pessoa(id);
+alter table contatos add foreign key(id_pessoa) references pessoas(id);
 
-alter table endereco add foreign key(id_pessoa) references pessoa(id);
+alter table enderecos add foreign key(id_pessoa) references pessoas(id);
 
-alter table pessoa add foreign key(id_login) references conta(id);
+alter table pessoas add foreign key(id_login) references contas(id);
 
-alter table pessoa add foreign key(id_dados_pessoais) references pessoa(id);
+alter table pessoas add foreign key(id_dados_pessoais) references pessoas(id);
 
-alter table pedidos add foreign key(id_produto) references produto(id);
+alter table pedidos add foreign key(id_produto) references produtos(id);
 
-alter table pedidos add foreign key(id_pessoa) references pessoa(id);
+alter table pedidos add foreign key(id_pessoa) references pessoas(id);
