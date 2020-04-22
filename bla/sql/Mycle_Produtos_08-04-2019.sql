@@ -1,4 +1,4 @@
-INSERT into produtos(nomeProduto, cor, valorAtacad,valorVarejo,descProduto, codigoProduto, dataProduto,tamanhoMinimo,tamanhoMaximo,tag) 
+INSERT into Produtos(nomeProduto, cor, valorAtacad,valorVarejo,descProduto, codigoProduto, dataProduto,tamanhoMinimo,tamanhoMaximo,tag) 
 value('KarateGI Básico Mirim','branco','70.00','89.9','Básico 100% algodão','KBM',now(),2,8,'karate kimono infantil mirin algodão'),
 ('KarateGI Básico Infantil','branco','90.0','115.6','Básico 100% algodão','KB1',now(),10,40,'karate kimono infantil algodão'),
 ('KarateGI Básico Adulto','branco','105.0','134.9','Básico 100% algodão','KB2',now(),42,48,'karate kimono aldulto mirin algodão'),
