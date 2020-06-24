@@ -46,7 +46,7 @@ value('KarateGI Básico Mirim','branco','70.00','89.9','Básico 100% algodão','
 ('AikidoGI "Europeu" Mirim','branco','110.0','141.3','Europa liso e ou canelado (Lona PA 50%alg.50%poliest)','EAKM',now(),2,8,'aikido europeu mirim algodao poliester infantil algodao kimono'),
 ('AikidoGI "Europeu" Infantil','branco','135.0','173.4','Europa liso e ou canelado (Lona PA 50%alg.50%poliest)','EAK1',now(),10,40,'aikido trançadinho infantil algodao algodao poliester kimono'),
 ('AikidoGI "Europeu" trançadinho Adulto','branco','165.0','212.0','Europa liso e ou canelado (Lona PA 50%alg.50%poliest)','EAK2',now(),42,48,'aikido trançadinho adulto algodao poliester algodao kimono'),
-('AikidoGI "Europeu" Adultotrançadinho extra','branco','190.0','244.1','Europa liso e ou canelado (Lona PA 50%alg.50%poliest)','EAK3',now(),50,56,'aikido trançadinho adulto extra algodao poliester algodao kimono'),
+('AikidoGI "Europeu" Adulto trançadinho extra','branco','190.0','244.1','Europa liso e ou canelado (Lona PA 50%alg.50%poliest)','EAK3',now(),50,56,'aikido trançadinho adulto extra algodao poliester algodao kimono'),
 ('AikidoGI "Canelado" Mirim','branco','110.0','141.3','OlimpicStar (PAestrela Branco - 50%algod. 50%poliester)','OAKM',now(),2,8,'aikido infantil mirim algodao poliester algodao kimono'),
 ('AikidoGI "Canelado" Infantil','branco','135.0','173.4','OlimpicStar (PAestrela Branco - 50%algod. 50%poliester)','OAK1',now(),10,40,'aikido infantil algodao poliester algodao kimono'),
 ('AikidoGI "Canelado" Adulto','branco','165.0','212.0','OlimpicStar (PAestrela Branco - 50%algod. 50%poliester)','OAK2',now(),42,48,'aikido adulto algodao poliester algodao kimono'),
